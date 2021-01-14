@@ -21,12 +21,6 @@ public class CustomSymbol implements TextComponent {
     }
 
     @Override
-    public boolean remove(TextComponent component) throws IllegalAccessException {
-        logger.log(Level.WARN, "remove() is not available");
-        throw new IllegalAccessException();
-    }
-
-    @Override
     public TextComponent getByIndex(int index) throws IllegalAccessException {
         logger.log(Level.WARN, "getByIndex() is not available");
         throw new IllegalAccessException();
