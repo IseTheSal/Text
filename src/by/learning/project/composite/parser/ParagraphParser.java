@@ -28,7 +28,6 @@ public class ParagraphParser extends AbstractParser {
         TextComponent result = new TextComposite(ComponentType.TEXT);
         List<String> paragraphs = parseText(text);
         for (String paragraph : paragraphs) {
-            System.out.println("here");
             TextComponent nextComponent = next.parse(paragraph);
             result.add(nextComponent);
         }
