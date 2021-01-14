@@ -23,11 +23,6 @@ public class TextComposite implements TextComponent {
     }
 
     @Override
-    public boolean remove(TextComponent component) {
-        return components.remove(component);
-    }
-
-    @Override
     public TextComponent getByIndex(int index) {
         return components.get(index);
     }
