@@ -4,7 +4,6 @@ import by.learning.composite.component.ComponentType;
 import by.learning.composite.component.TextComponent;
 import by.learning.composite.component.TextComposite;
 import by.learning.composite.parser.*;
-import by.learning.project.composite.parser.*;
 
 import java.util.*;
 
