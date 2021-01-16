@@ -86,7 +86,7 @@ public class TextService {
             for (int j = 0; j < parsedParagraph.size(); j++) {
                 TextComponent paragraphComponent = parsedParagraph.getByIndex(j);
                 int size = paragraphComponent.size();
-                if(size >= amount){
+                if (size >= amount) {
                     result.append(paragraphComponent);
                 }
             }
