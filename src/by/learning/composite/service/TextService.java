@@ -1,8 +1,9 @@
-package by.learning.project.composite.service;
+package by.learning.composite.service;
 
-import by.learning.project.composite.component.ComponentType;
-import by.learning.project.composite.component.TextComponent;
-import by.learning.project.composite.component.TextComposite;
+import by.learning.composite.component.ComponentType;
+import by.learning.composite.component.TextComponent;
+import by.learning.composite.component.TextComposite;
+import by.learning.composite.parser.*;
 import by.learning.project.composite.parser.*;
 
 import java.util.*;

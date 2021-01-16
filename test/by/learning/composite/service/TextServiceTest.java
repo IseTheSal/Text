@@ -1,15 +1,11 @@
-package by.learning.project.composite.service;
+package by.learning.composite.service;
 
-import by.learning.project.composite.comparator.SentenceAmountComparator;
-import by.learning.project.composite.component.TextComponent;
-import by.learning.project.composite.parser.ParseChain;
-import by.learning.project.composite.parser.TextParser;
-import by.learning.project.composite.reader.CustomFileReader;
+import by.learning.composite.component.TextComponent;
+import by.learning.composite.reader.CustomFileReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Set;
 
 public class TextServiceTest {

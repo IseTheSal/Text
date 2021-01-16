@@ -1,4 +1,4 @@
-package by.learning.project.composite.component;
+package by.learning.composite.component;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

@@ -1,4 +1,4 @@
-package by.learning.project.composite.reader;
+package by.learning.composite.reader;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

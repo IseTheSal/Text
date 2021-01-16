@@ -1,6 +1,6 @@
-package by.learning.project.composite.parser;
+package by.learning.composite.parser;
 
-import by.learning.project.composite.component.TextComponent;
+import by.learning.composite.component.TextComponent;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

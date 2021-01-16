@@ -1,11 +1,7 @@
-package by.learning.project.composite.reader;
+package by.learning.composite.reader;
 
-import by.learning.project.composite.parser.ParseChain;
-import by.learning.project.composite.parser.TextParser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class CustomFileReaderTest {
 

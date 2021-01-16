@@ -1,5 +1,6 @@
-package by.learning.project.composite.comparator;
+package by.learning.composite.comparator;
 
+import by.learning.composite.component.TextComponent;
 import by.learning.project.composite.component.TextComponent;
 
 import java.util.Comparator;

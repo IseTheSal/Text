@@ -1,4 +1,4 @@
-package by.learning.project.composite.parser;
+package by.learning.composite.parser;
 
 public abstract class AbstractParser implements TextParser {
     protected TextParser next;

@@ -1,4 +1,4 @@
-package by.learning.project.composite.component;
+package by.learning.composite.component;
 
 public interface TextComponent {
     boolean add(TextComponent component);
