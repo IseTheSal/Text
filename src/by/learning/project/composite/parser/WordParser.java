@@ -24,7 +24,7 @@ public class WordParser extends AbstractParser {
     }
 
     @Override
-    public TextComponent parse(String text) throws IllegalAccessException {
+    public TextComponent parse(String text) {
         TextComponent result = new TextComposite(ComponentType.SENTENCE);
         List<String> words = parseText(text);
         for (String word : words) {

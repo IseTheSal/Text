@@ -15,21 +15,21 @@ public class CustomSymbol implements TextComponent {
     }
 
     @Override
-    public boolean add(TextComponent component) throws IllegalAccessException {
+    public boolean add(TextComponent component) {
         logger.log(Level.WARN, "add() is not available");
-        throw new IllegalAccessException();
+        throw new UnsupportedOperationException();
     }
 
     @Override
-    public TextComponent getByIndex(int index) throws IllegalAccessException {
+    public TextComponent getByIndex(int index) {
         logger.log(Level.WARN, "getByIndex() is not available");
-        throw new IllegalAccessException();
+        throw new UnsupportedOperationException();
     }
 
     @Override
-    public int size() throws IllegalAccessException {
+    public int size() {
         logger.log(Level.WARN, "size() is not available");
-        throw new IllegalAccessException();
+        throw new UnsupportedOperationException();
     }
 
     @Override

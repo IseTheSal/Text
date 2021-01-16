@@ -27,7 +27,7 @@ public class SentenceParser extends AbstractParser {
     }
 
     @Override
-    public TextComponent parse(String text) throws IllegalAccessException {
+    public TextComponent parse(String text) {
         TextComponent result = new TextComposite(ComponentType.PARAGRAPH);
         List<String> sentences = parseText(text);
         for (String sentence : sentences) {

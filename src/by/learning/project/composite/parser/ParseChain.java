@@ -22,7 +22,7 @@ public class ParseChain implements TextParser {
     }
 
     @Override
-    public TextComponent parse(String text) throws IllegalAccessException {
+    public TextComponent parse(String text) {
         TextComponent result = paragraphParser.parse(text);
         logger.log(Level.DEBUG, "Parsing text is complete");
         return result;

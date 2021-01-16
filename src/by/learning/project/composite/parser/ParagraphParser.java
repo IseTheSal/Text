@@ -24,7 +24,7 @@ public class ParagraphParser extends AbstractParser {
     }
 
     @Override
-    public TextComponent parse(String text) throws IllegalAccessException {
+    public TextComponent parse(String text) {
         TextComponent result = new TextComposite(ComponentType.TEXT);
         List<String> paragraphs = parseText(text);
         for (String paragraph : paragraphs) {

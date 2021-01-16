@@ -15,7 +15,7 @@ public class CustomFileReader {
 
     private static final Logger logger = LogManager.getLogger(CustomFileReader.class);
 
-    private static final String DELIMITER = "/n";
+    private static final String DELIMITER = "\n";
 
     public String readFile(String path) {
         String result = "";

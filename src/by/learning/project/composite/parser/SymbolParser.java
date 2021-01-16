@@ -21,7 +21,7 @@ public class SymbolParser extends AbstractParser {
     }
 
     @Override
-    public TextComponent parse(String text) throws IllegalAccessException {
+    public TextComponent parse(String text) {
         TextComponent result = new TextComposite(ComponentType.WORD);
         List<String> symbols = parseText(text);
         for (String symbol : symbols) {

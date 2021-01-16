@@ -39,7 +39,7 @@ public class TextComposite implements TextComponent {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         if (!components.isEmpty()) {
             TextComponent firstComponent = components.get(0);
             ComponentType firstComponentType = firstComponent.getComponentType();
