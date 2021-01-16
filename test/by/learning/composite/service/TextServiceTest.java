@@ -11,7 +11,7 @@ import java.util.Set;
 public class TextServiceTest {
 
     TextService textService = new TextService();
-    final String DEFAULT_PATH = "C:\\Users\\illya\\Desktop\\Epam\\Epam Learning\\TextTask\\resources\\data\\text.txt";
+    final String DEFAULT_PATH = "data\\text.txt";
     final String DEFAULT_TEXT = "Hello. How are you?\tHi. I am fine. Thanks. \tBye.\tOk, Bye.";
     final int WORDS_AMOUNT = 30;
     final String EXPECTED_SENTENCE_WITH_LONGEST_WORDS = "[The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c)," +
